@@ -78,6 +78,7 @@ Network : SUI
 ## BOT FEATURE
 - Multi Account 
 - Support PK
+- Auto Request Faucet
 - Auto Swap both SUI and WAL
 - Auto Stake
 
