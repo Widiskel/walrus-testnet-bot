@@ -33,7 +33,6 @@
     "moment-timezone": "^0.5.45",
     "node-fetch": "^3.3.2",
     "shx": "^0.3.4",
-    "solc": "^0.8.28",
     "twisters": "^1.1.0",
     "winston": "^3.13.0"
   }
