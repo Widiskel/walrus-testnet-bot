@@ -1,8 +1,8 @@
-# WALRUS TESTNET BOT BOT
+# WALRUS TESTNET BOT
 The Walrus Testnet Bot is a powerful tool designed for interacting with SUI Testnet networks. This bot automates transaction processes, enabling users to perform actions such as Swapping between SUI to WAL interactions seamlessly and daily making it an ideal solution for you to do your Walrus Testnet airdrop.
 
 ## Table Of Contents
-- [WALRUS TESTNET BOT BOT](#walrus-testnet-bot-bot)
+- [WALRUS TESTNET BOT](#walrus-testnet-bot)
   - [Table Of Contents](#table-of-contents)
   - [Prerequisite](#prerequisite)
   - [Join My Telegram Channel](#join-my-telegram-channel)
