@@ -1,0 +1,40 @@
+{
+  "name": "walrus-testnet-bot",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "The Walrus Testnet Bot is a powerful tool designed for interacting with SUI Testnet networks. This bot automates transaction processes, enabling users to perform actions such as Swapping between SUI to WAL interactions seamlessly and daily making it an ideal solution for you to do your Walrus Testnet airdrop.",
+  "main": "index.js",
+  "scripts": {
+    "start": "shx cp -r accounts app/accounts && shx cp -r config app/config && node app/index.js",
+    "dev": "node index.js",
+    "build": "rm -rf app && javascript-obfuscator --config build-config.json",
+    "test": "node test.js"
+  },
+  "keywords": [
+    "testnet-bot",
+    "sui-testnet-bot",
+    "walrus-testnet-bot",
+    "walrus-bot",
+    "walrus-protocol",
+    "widiskel",
+    "skel-drop-huunt"
+  ],
+  "author": "Widiskel",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Widiskel/walrus-testnet-bot.git"
+  },
+  "dependencies": {
+    "@mysten/sui": "^1.13.0",
+    "bip39": "^3.1.0",
+    "blessed": "^0.1.81",
+    "input": "^1.0.1",
+    "moment-timezone": "^0.5.45",
+    "node-fetch": "^3.3.2",
+    "shx": "^0.3.4",
+    "solc": "^0.8.28",
+    "twisters": "^1.1.0",
+    "winston": "^3.13.0"
+  }
+}
