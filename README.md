@@ -81,6 +81,7 @@ Network : SUI
 - Auto Request Faucet
 - Auto Swap both SUI and WAL
 - Auto Stake
+- Auto Mint 1 Flatlander NFT
 
 
 ## Setup & Configure BOT
