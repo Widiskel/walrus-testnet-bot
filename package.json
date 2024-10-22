@@ -5,7 +5,8 @@
   "description": "The Walrus Testnet Bot is a powerful tool designed for interacting with SUI Testnet networks. This bot automates transaction processes, enabling users to perform actions such as Swapping between SUI to WAL interactions seamlessly and daily making it an ideal solution for you to do your Walrus Testnet airdrop.",
   "main": "index.js",
   "scripts": {
-    "start": "shx cp -r accounts app/accounts && shx cp -r config app/config && node app/index.js",
+    "start": "node start.js",
+    "setup": "node setup.js",
     "dev": "node index.js",
     "build": "rm -rf app && javascript-obfuscator --config build-config.json",
     "test": "node test.js"
@@ -33,7 +34,6 @@
     "input": "^1.0.1",
     "moment-timezone": "^0.5.45",
     "node-fetch": "^3.3.2",
-    "shx": "^0.3.4",
     "socks-proxy-agent": "^8.0.4",
     "twisters": "^1.1.0",
     "winston": "^3.13.0"

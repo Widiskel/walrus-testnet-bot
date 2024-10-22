@@ -92,27 +92,23 @@ Network : SUI
    ```
    git clone https://github.com/Widiskel/walrus-testnet-bot.git && cd walrus-testnet-bot
    ```
-2. Run
+2. Install Dependecies and Setup bot
    ```
-   npm install
+   npm install && npm run setup
    ```
-3. Run
-   ```
-   cp -r accounts/accounts_tmp.js accounts/accounts.js && cp -r config/config_tmp.js config/config.js && cp -r config/proxy_list_tmp.js config/proxy_list.js
-   ```
-4. Configure your accounts
+3. Configure your accounts
    ```
    nano accounts/accounts.js
    ```
-5. Configure the bot config
+4. Configure the bot config
     ```
    nano config/config.js
     ```
-6. Configure the proxy 
+5. Configure the proxy 
     ```
    nano config/proxy_list.js
     ```
-7. To run Auto TX
+6. To run bot
    ```
    npm run start
    ```
@@ -129,19 +125,16 @@ Network : SUI
    ```
 3. Run 
    ```
-   npm install
+   npm install && npm run setup
    ```
-5. Navigate to `walrus-testnet-bot` directory. 
-6. Navigate to `accounts` folder and rename `accounts_tmp.js` to `accounts.js`.
-7. Now open `acccounts.js` and setup your accounts. 
-8. Now Back to `walrus-testnet-bot` directory and Navigate to `config` and rename `config_tmp.js` to `config.js` adjust the `config.js` as needed.
-9. Also rename `proxy_list_tmp.js` to `proxy_list.js`
-10. Back to `walrus-testnet-bot` directory.
-11. To start the app open your `Command Prompt` or `Power Shell`
-12. To run auto Tx Bot
-    ```
-    npm run start
-    ```
+4. Open `accounts/accounts.js` to configure your accounts
+5. Open `config/proxy_list.js` to configure your proxy
+6. Open `config/config.js` to configure bot Config
+7. To start the app open your `Command Prompt` or `Power Shell`
+8. To run auto Tx Bot
+   ```
+   npm run start
+   ```
 
 ## Update Bot
 
