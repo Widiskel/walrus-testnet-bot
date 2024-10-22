@@ -78,6 +78,7 @@ Network : SUI
 ## BOT FEATURE
 - Multi Account 
 - Support PK
+- HTTP & SOCKS5 proxy support
 - Auto Request Faucet
 - Auto Swap both SUI and WAL
 - Auto Stake
