@@ -98,7 +98,7 @@ Network : SUI
    ```
 3. Run
    ```
-   cp -r accounts/accounts_tmp.js accounts/accounts.js && cp -r config/config_tmp.js config/config.js
+   cp -r accounts/accounts_tmp.js accounts/accounts.js && cp -r config/config_tmp.js config/config.js && cp -r config/proxy_list_tmp.js config/proxy_list.js
    ```
 4. Configure your accounts
    ```
@@ -108,7 +108,11 @@ Network : SUI
     ```
    nano config/config.js
     ```
-6. To run Auto TX
+6. Configure the proxy 
+    ```
+   nano config/proxy_list.js
+    ```
+7. To run Auto TX
    ```
    npm run start
    ```
@@ -131,9 +135,10 @@ Network : SUI
 6. Navigate to `accounts` folder and rename `accounts_tmp.js` to `accounts.js`.
 7. Now open `acccounts.js` and setup your accounts. 
 8. Now Back to `walrus-testnet-bot` directory and Navigate to `config` and rename `config_tmp.js` to `config.js` adjust the `config.js` as needed.
-9.  Back to `walrus-testnet-bot` directory.
-10. To start the app open your `Command Prompt` or `Power Shell`
-11. To run auto Tx Bot
+9. Also rename `proxy_list_tmp.js` to `proxy_list.js`
+10. Back to `walrus-testnet-bot` directory.
+11. To start the app open your `Command Prompt` or `Power Shell`
+12. To run auto Tx Bot
     ```
     npm run start
     ```
