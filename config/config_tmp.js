@@ -8,7 +8,7 @@ export class Config {
     "0x01ef8dad1ea8afe318fe2003a5123b20c4fe6511659ecf46d968851c15b67134", //Operator: LakeStake
   ];
 
-  static DISPLAY = "BLESS"; // TWIST OR BLESS
+  static DISPLAY = "TWIST"; // TWIST OR BLESS
   static DELAYINHOURS = 6;
 
   //NETWORK
