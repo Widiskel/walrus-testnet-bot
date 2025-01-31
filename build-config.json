@@ -1,0 +1,16 @@
+{
+  "input": "src",
+  "output": "app",
+  "exclude": ["node_modules", "accounts", "config", "setup.js", "start.js"],
+  "compact": true,
+  "deadCodeInjection": true,
+  "deadCodeInjectionThreshold": 0.8,
+  "selfDefending": true,
+  "controlFlowFlattening": true,
+  "controlFlowFlatteningThreshold": 0.8,
+  "stringArray": true,
+  "rotateStringArray": true,
+  "stringArrayThreshold": 0.8,
+  "stringArrayEncoding": ["rc4"],
+  "disableConsoleOutput": false
+}

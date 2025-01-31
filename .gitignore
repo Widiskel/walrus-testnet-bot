@@ -6,7 +6,7 @@ accounts/accounts.js
 src/reference/*
 package-lock.json
 .DS_Store
-build-config.json
+build-config.json 
 config/config.js
 /index.js
 /src
